@@ -1,17 +1,17 @@
 # Top50Movies
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/top_50_movies`. To experiment with that code, run `bin/console` for an interactive prompt.
+This ruby gem provides command line interface for the top 50 movies on IMDB.
 
 
 ## Installation
 
-$ gem install top_50_movies
+$ `gem install top_50_movies`
 
 ## Usage
 
 Type the command below and follow the on screen instructions
 
-./bin/top_50_movies
+`./bin/top_50_movies`
 
 ## Development
 
