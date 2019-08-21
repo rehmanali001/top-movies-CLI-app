@@ -1,2 +1,5 @@
 #!/usr/bin/env ruby
 
+require './lib/top_50_movies'
+
+CLI.new.call

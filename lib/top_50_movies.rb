@@ -1,6 +1,6 @@
-require "top_50_movies/version"
 
-module Top50Movies
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "./top_50_movies/version.rb"
+require_relative "./top_50_movies/cli.rb"
+require_relative "./top_50_movies/movies.rb"
+require_relative "./top_50_movies/scraper.rb"
+
