@@ -1,4 +1,3 @@
-
 class CLI
 
         def call

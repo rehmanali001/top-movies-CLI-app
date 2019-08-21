@@ -8,7 +8,6 @@ class Scraper
     def self.scrape_movies
         html = open("https://www.imdb.com/search/title/?groups=top_250&sort=user_rating")
         doc = Nokogiri::HTML(html)
-        
         doc.css(".lister-item-content").each do |movie_scrape|
         title = movie_scrape.css("h3 a").text.gsub(/\s+/, " ")
         year = movie_scrape.css(".lister-item-year").text.gsub(/\s+/, " ")
