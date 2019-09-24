@@ -1,4 +1,4 @@
-class CLI
+class Top50Movies::CLI
 
         def call
             puts "Welcome to IMDB's top 50 Movies List!"
