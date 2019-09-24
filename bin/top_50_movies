@@ -2,4 +2,4 @@
 
 require './lib/top_50_movies'
 
-Top50Movies::CLI.new.call
+CLI.new.call
